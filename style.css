@@ -23,7 +23,7 @@
     width: 1320px;
     height: 600px;
     border-radius: 15px;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
 }
 
 .banner-title-1 {
@@ -285,21 +285,25 @@
     margin-top: 100PX;
 
 }
+
 .holiday-img1 {
     top: 360px;
     position: relative;
     width: 50%;
 }
+
 .holiday-img2 {
     position: relative;
     top: 100px;
     left: 231px;
 }
+
 .holiday-img3 {
     position: relative;
     right: 326px;
     top: 125px;
 }
+
 /* Portfolio sec  */
 .portfolio-sec {
     max-width: 1320px;
@@ -424,19 +428,59 @@
     width: 100%;
     height: 609px
 }
-.footer-main{
+
+.footer-main {
     width: 1360px;
     margin: 0 auto;
 }
-.footer-item{
+
+.footer-item {
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
-.footer-item{
+
+.footer-item {
     color: white;
+    margin: 126px 0px;
 }
-.footer-right p img{
-    width: 24px;
-    height: 24px;
-    margin-top: 15px;
+
+.footer-right ul li {
+    list-style: none;
+    font-family: 'Inter';
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+}
+
+.footerimg1 {
+    top: 7px;
+    position: relative;
+    right: 10px;
+}
+
+.footer-right {
+    margin: 88px 0px;
+}
+
+.footer-left p {
+    width: 251px;
+    height: 80px;
+    text-align: left;
+    margin: 91px 0;
+    font-family: 'Inter';
+    position: relative;
+    right: 224px;
+}
+.hr {
+    position: relative;
+    bottom: 100px;
+}
+.social-link {
+    margin-left: 460px;
+}
+.social-link img {
+    margin-left: 24px;
 }
