@@ -23,8 +23,7 @@
     width: 1320px;
     height: 600px;
     border-radius: 15px;
-    background:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
 }
 
 .banner-title-1 {
@@ -148,6 +147,7 @@
     margin-top: 120px;
     border-radius: 20px;
     text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
 }
 
@@ -282,26 +282,24 @@
     background-image: url("./Media/Rectangle 2.png");
     background-repeat: no-repeat;
     height: 254px;
+    margin-top: 100PX;
 
 }
-
-.holiday-dis {
-    position: relative;
-    right: 476px;
-    top: 317px;
-}
-
 .holiday-img1 {
-    top: 284px;
+    top: 360px;
     position: relative;
+    width: 50%;
 }
-
+.holiday-img2 {
+    position: relative;
+    top: 100px;
+    left: 231px;
+}
 .holiday-img3 {
     position: relative;
-    top: 234px;
-    left: 93px;
+    right: 326px;
+    top: 125px;
 }
-
 /* Portfolio sec  */
 .portfolio-sec {
     max-width: 1320px;
@@ -373,16 +371,24 @@
     margin-top: 80px;
 }
 
-.subscribe-sec h1 {}
+.subscribe-sec h1 {
+    margin-top: 40px;
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 48px;
+}
 
 .subscribe-sec p {
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
+    margin-top: 22px;
 
     font-size: 20px;
     font-family: 'Inter';
     display: inline-block;
 }
+
 .subscribe-input {
     display: flex;
     width: 648px;
@@ -391,13 +397,15 @@
     overflow: hidden;
     margin: 48px auto;
 }
-.subscribe-email{
-    flex:1;
+
+.subscribe-email {
+    flex: 1;
     border: none;
     padding: 10px;
     outline: none;
     font-size: 16px;
 }
+
 .subscribe-submit {
     background: #F00;
     padding: 10px;
@@ -406,4 +414,29 @@
     color: #fff;
     cursor: pointer;
     font-size: 20px;
+}
+
+/* footer sec  */
+.footer {}
+
+.footer-sec {
+    background: #070211;
+    width: 100%;
+    height: 609px
+}
+.footer-main{
+    width: 1360px;
+    margin: 0 auto;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-around;   
+}
+.footer-item{
+    color: white;
+}
+.footer-right p img{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
 }
