@@ -480,9 +480,10 @@
     bottom: 100px;
 }
 .social-link {
-    margin-left: 460px;
     position: relative;
-    bottom: 46px;
+    display: flex;
+    justify-content: center;
+    bottom: 44px;
 }
 .social-link img {
     margin-left: 24px;
