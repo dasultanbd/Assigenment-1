@@ -475,10 +475,10 @@
     position: relative;
     right: 224px;
 }
-.hr {
+.hr-line1 {
+    border: 1px solid #404040;
     position: relative;
-    bottom: 100px;
-    background: #ffffff;
+    bottom: 77px;
 }
 .social-link {
     position: relative;
@@ -488,6 +488,11 @@
 }
 .social-link img {
     margin-left: 24px;
+}
+.hr-line2 {
+    border: 1px solid #404040;
+    position: relative;
+    bottom: 8px;
 }
 .copyright {
     display: flex;
