@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
 .main-div {
     padding: 0px 280px;
     width: 1320px;
 }
-
 /* banner sec  */
 .hadder {
     width: 1320px;
@@ -16,16 +14,13 @@
     background-image: url(Media/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
-
 }
-
 .banner {
     width: 1320px;
     height: 600px;
     border-radius: 15px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
 }
-
 .banner-title-1 {
     font-family: 'Merriweather';
     color: #FFF;
@@ -34,7 +29,6 @@
     position: relative;
     padding-top: 160px;
 }
-
 .banner-title-2 {
     color: #FFF;
     font-size: 70px;
@@ -43,10 +37,7 @@
     margin: 0px auto;
     width: 632px;
 }
-
 /* discount sec  */
-.discount-sec {}
-
 .discount-title-1 {
     color: #F00;
     text-align: center;
@@ -55,14 +46,12 @@
     margin-top: 120px;
     width: 100%;
 }
-
 .discount-title-2 {
     text-align: center;
     font-size: 19px;
     color: red;
     margin-top: 48px;
 }
-
 .discount-title-3 {
     color: #070211;
     text-align: center;
@@ -70,13 +59,11 @@
     font-family: 'Inter';
     margin-top: 16px;
 }
-
 .discount-banner {
     display: flex;
     justify-content: center;
     margin-top: 48px;
 }
-
 /* midnight sec  */
 .midnight-sec {
     background-image: url(./Media/Vectorrr.png);
@@ -87,14 +74,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .midnight-banner {
     width: 1320px;
     height: 600px;
     border-radius: 15px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgb(0 0 0 / 20%));
 }
-
 .midnight-title {
     position: relative;
     width: 642px;
@@ -106,7 +91,6 @@
     left: 126px;
     text-align: left;
 }
-
 .midnight-des {
     position: relative;
     color: #d6d0d3;
@@ -116,7 +100,6 @@
     width: 697px;
     top: 180px;
 }
-
 .midnight-banner button {
     border: none;
     position: relative;
@@ -131,7 +114,6 @@
     cursor: pointer;
     font-family: 'Inter';
 }
-
 .banner-image {
     display: flex;
     justify-content: right;
@@ -139,7 +121,6 @@
     bottom: 242px;
     position: relative;
 }
-
 /* New Park Hotel */
 .new-park {
     background-color: #ffe7e7;
@@ -147,10 +128,8 @@
     margin-top: 120px;
     border-radius: 20px;
     text-align: center;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgb(255, 0, 0, 0.00) 100%);
 }
-
 .new-park-text {
     color: #070211;
     font-size: 20px;
@@ -158,11 +137,9 @@
     text-align: center;
     padding: 100px 0px;
 }
-
 .new-park span {
     color: red;
 }
-
 .new-park button {
     padding: 16px 32px;
     border: 0px;
@@ -172,10 +149,7 @@
     text-align: center;
     font-size: 25px;
     cursor: pointer;
-
-
 }
-
 /* circle zone */
 .circle-zone {
     display: flex;
@@ -187,18 +161,15 @@
     align-items: center;
     gap: 90px;
 }
-
 .circle-text {
     margin-top: 10px;
 }
-
 .circle-text h1 {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
     margin-top: 16px;
 }
-
 .circle-text h3 {
     color: #F00;
     font-family: 'Inter';
@@ -207,23 +178,18 @@
     font-weight: 500;
     line-height: normal;
 }
-
 .circle-text p {
     max-width: 393px;
     color: #66636c;
     margin-top: 22px;
     font-family: 'Inter';
 }
-
 .circle-img {
     border-radius: 50%;
     border: 10px solid #F00;
     width: 363px;
     padding: 20px 24px;
 }
-
-.circle-year {}
-
 .circle-year h1 {
     color: red;
     font-size: 48px;
@@ -232,37 +198,31 @@
     font-family: 'Inter';
     margin-bottom: 16px;
 }
-
 .circle-year p {
     max-width: 275px;
     color: #66636c;
     margin-bottom: 16px;
     font-family: 'Inter';
 }
-
 /* holiday sec  */
 .holiday-sec {
     background: white;
     text-align: center;
     margin-top: 129px;
 }
-
 .holiday-text h4 {
     color: #070211;
     font-size: 20px;
     font-family: 'Inter';
 }
-
 .holiday-text span {
     color: red;
 }
-
 .holiday-text h1 {
     color: #070211;
     font-size: 72px;
     font-family: 'Merriweather';
 }
-
 .holiday-text p {
     color: rgb(102, 99, 108);
     font-size: 16px;
@@ -271,63 +231,51 @@
     max-width: 1068px;
     margin: 14px auto;
 }
-
 .holiday-img {
     display: flex;
     position: relative;
     max-width: 1320px;
 }
-
 .holiday-image {
     background-image: url("./Media/Rectangle 2.png");
     background-repeat: no-repeat;
     height: 254px;
     margin-top: 100PX;
-
 }
-
 .holiday-img1 {
     top: 360px;
     position: relative;
     width: 50%;
 }
-
 .holiday-img2 {
     position: relative;
     top: 100px;
     left: 231px;
 }
-
 .holiday-img3 {
     position: relative;
     right: 326px;
     top: 125px;
 }
-
 /* Portfolio sec  */
 .portfolio-sec {
     max-width: 1320px;
     margin: 80px 0px;
 }
-
 .Portfolio-text {
     text-align: left;
 }
-
 .Portfolio-text h4 {
     color: red;
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
-
 }
-
 .Portfolio-text h1 {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
 }
-
 .Portfolio-text p {
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
@@ -336,30 +284,24 @@
     font-weight: 400;
     font-family: 'Inter';
 }
-
 /* portfolio img  */
 .Portfolio-img1 {
     display: flex;
     gap: 24px;
     margin-top: 48px;
 }
-
 .img-box1 {
     opacity: 0.5;
 }
-
 .img-box1:hover {
     transition: 1s;
     opacity: 1;
-
 }
-
 .Portfolio-img2 {
     display: flex;
     gap: 24px;
     margin-top: 10px;
 }
-
 /* subscribe sec  */
 .subscribe-sec {
     margin-top: 120px;
@@ -370,11 +312,9 @@
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
 }
-
 .subscribe-sec img {
     margin-top: 80px;
 }
-
 .subscribe-sec h1 {
     margin-top: 40px;
     color: #070211;
@@ -382,7 +322,6 @@
     font-family: 'Merriweather';
     font-size: 48px;
 }
-
 .subscribe-sec p {
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
@@ -392,7 +331,6 @@
     font-family: 'Inter';
     display: inline-block;
 }
-
 .subscribe-input {
     display: flex;
     width: 648px;
@@ -401,7 +339,6 @@
     overflow: hidden;
     margin: 48px auto;
 }
-
 .subscribe-email {
     flex: 1;
     border: none;
@@ -409,7 +346,6 @@
     outline: none;
     font-size: 16px;
 }
-
 .subscribe-submit {
     background: #F00;
     padding: 10px;
@@ -419,27 +355,21 @@
     cursor: pointer;
     font-size: 20px;
 }
-
 /* footer sec  */
-.footer {}
-
 .footer-sec {
     background: #070211;
     width: 100%;
     height: 609px;
     margin-top: 113px;
 }
-
 .footer-main {
     width: 1360px;
     margin: 0 auto;
 }
-
 .footer-item {
     display: flex;
     justify-content: space-around;
 }
-
 .footer-item {
     color: white;
     margin: 68px 0px;
@@ -449,23 +379,19 @@
     list-style: none;
     font-family: 'Inter';
 }
-
 .footer-right ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Inter';
 }
-
 .footerimg1 {
     top: 7px;
     position: relative;
     right: 10px;
 }
-
 .footer-right {
     margin: 88px 0px;
 }
-
 .footer-left p {
     width: 251px;
     height: 80px;
