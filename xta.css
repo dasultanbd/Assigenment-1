@@ -1,0 +1,58 @@
+.holiday-sec {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.holiday-img {
+    /* display: flex; */
+}
+
+/* .holiday-img1 {
+    position: relative;
+    right: 89px;
+    top: 288px;
+} */
+.holiday-img2 {}
+
+.holiday-img3 {
+    position: relative;
+    bottom: 229px;
+    left: 5px;
+}
+
+.holiday-img {
+    display: flex;
+    background-image: url(Media/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1320px;
+    height: 600px;
+    margin: 10px 20px;
+}
+
+
+.subscribe-input{
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 648px;
+    height: 72px;
+}
+
+.subscribe-email {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.subscribe-submit {
+    padding: 13px;
+    border: none;
+    width: 210px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
