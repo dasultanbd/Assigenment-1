@@ -478,6 +478,7 @@
 .hr {
     position: relative;
     bottom: 100px;
+    background: #ffffff;
 }
 .social-link {
     position: relative;
