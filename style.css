@@ -426,7 +426,8 @@
 .footer-sec {
     background: #070211;
     width: 100%;
-    height: 609px
+    height: 609px;
+    margin-top: 113px;
 }
 
 .footer-main {
@@ -480,7 +481,20 @@
 }
 .social-link {
     margin-left: 460px;
+    position: relative;
+    bottom: 46px;
 }
 .social-link img {
     margin-left: 24px;
+}
+.copyright {
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: 'Inter';
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
 }
