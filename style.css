@@ -275,6 +275,7 @@
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
+    margin-top: 16px;
 }
 .Portfolio-text p {
     width: 896px;
@@ -283,6 +284,7 @@
     font-style: normal;
     font-weight: 400;
     font-family: 'Inter';
+    margin-top: 22px;
 }
 /* portfolio img  */
 .Portfolio-img1 {
